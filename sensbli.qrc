@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/sensbli" >
+        <file>icons/cartoon_eye.svg</file>
+        <file>icons/testpattern.svg</file>
+    </qresource>
+</RCC>

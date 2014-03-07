@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sensbliClass</class>
+ <widget class="QWidget" name="sensbliClass">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>sensbli</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="sensbli.qrc">
+    <normaloff>:/sensbli/icons/cartoon_eye.svg</normaloff>:/sensbli/icons/cartoon_eye.svg</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LiveView</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnQuit">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>550</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnCalib">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>60</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Calibrate</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnRecord">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>100</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Record</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnSetup">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>150</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Setup</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="liveview">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>640</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="sensbli.qrc">:/sensbli/icons/testpattern.svg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>550</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Status:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="statusinfo">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>550</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Waiting</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="sensbli.qrc"/>
+ </resources>
+ <connections/>
+</ui>
